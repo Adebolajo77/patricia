@@ -13,6 +13,6 @@
    	mysql_query($query,$link);
 	mysql_close($link);
 	
-	//header function from connect.php
+	 
    	header("Location: index.php");
 ?>
