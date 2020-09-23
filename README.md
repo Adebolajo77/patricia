@@ -6,20 +6,45 @@
 
 ![Product Gif](https://images.squarespace-cdn.com/content/v1/59b037304c0dbfb092fbe894/1585520436123-MWPLA6SVPPW9PJGYUYLL/ke17ZwdGBToddI8pDm48kM8ovl2IWJKCHB5zy2s-rqZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTm3Qo48J5H1zFfLA8ErqpsRm2Z5pNfU6V0Zw_Wt0I4bsz0mfBzWOFLv680Lk3cXuzo/main_RGB_LED_animation.gif?format=1000w)
 
-Material Dashboard is a free Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard was built over the popular Bootstrap framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements.
+Arduino client - PHP Server project is a simple communication system designed with Arduino and PHP. PHP acts the server, while arduino acts as the client who communicates to the server. The client makes a post request to the server using an API and the server responds back. 
 
-Material Dashboard makes use of light, surface and movement. The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left sidebar and the content is on the right inside the main panel.
+The objective of this project was to use and Arduino to read a sensor and send the values to the internet, to be stored in a Web Server and displayed.
 
-This product came as a result of users asking for a material dashboard after we released our successful [Material Kit](https://www.creative-tim.com/product/material-kit). We developed it based on your feedback and it is a powerful bootstrap admin dashboard, which allows you to build products like admin panels, content managements systems and CRMs.
+It consists in an Arduino Uno with an Ethernet Shield and a DHT 11 temperature / moisture sensor, acting as a Web Client. It sends POST requests with the readings to a web server running a custom Database and PHP application.
 
-Material Dashboard comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red and purple) and an option to have a background image on the sidebar.
+The PHP app stores the values when new POST requests are received and also serves the pages that display the information.
+The D3.js to dynamically show the data stored in the Database.
 
-Material Dashboard uses a framework built by our friend Federico - Bootstrap Material Design, who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.
+The Arduino it's configured to use a Dynamic IP Address, in order to solve any conflicting IP issues, and also to work easily with most home networks/routers.
 
-Special thanks go to:
-- [Robert McIntosh](https://github.com/mouse0270/bootstrap-notify) for the notification system.
-- [Chartist](https://gionkunz.github.io/chartist-js/) for the wonderful charts.
-We are very excited to share this dashboard with you and we look forward to hearing your feedback!
+This project is divided in 2 main parts:
+
+# PART 1
+- Arduino Web client Application: reads the sensor values and sends them to the webserver.
+- PHP/MySQL Application: handles the POST requests that are sent to the server and serves the pages to clients who connect 
+# PART 2
+- Data Visualization: The PHP application will use the Javascript Framework D3.js to display the values stored in the DB with graphics. It will allow to navigate to the past days to observe the readings
+REQUIREMENTS
+
+
+# HARDWARE
+
+*Arduino Uno
+Ethernet Shield (eBay clone)
+DHT 11 sensor
+breadboard
+10k Ohm resistor
+USB cable
+Ethernet cable
+wires
+piece of acrylic
+PCB spacers
+Software
+
+- To use this project, you need access to a web server ( can be from a free hosting company ) with capability to run PHP applications and also to create databases. ( possibly cPanel with phpMyAdmin)
+
+
+
 
 
 ## Table of Contents
@@ -33,9 +58,10 @@ We are very excited to share this dashboard with you and we look forward to hear
 
 ## Quick start
 
-- `npm i material-dashboard`
 - Clone the repo: `git clone https://github.com/5ran6/patricia.git`.
 - [Download from Github](https://github.com/5ran6/patricia/archive/master.zip).
+- Edit `wificlient.ino` and edit the WiFi parameters which include SSID and PASSWORD to those of your router. 
+- Edit `api.php` configurations to suit yours
 
 
 ## Documentation
