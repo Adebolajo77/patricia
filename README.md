@@ -19,15 +19,15 @@ The Arduino it's configured to use a Dynamic IP Address, in order to solve any c
 
 This project is divided in 2 main parts:
 
-# PART 1
+### PART 1
 - Arduino Web client Application: reads the sensor values and sends them to the webserver.
 - PHP/MySQL Application: handles the POST requests that are sent to the server and serves the pages to clients who connect 
-# PART 2
+### PART 2
 - Data Visualization: The PHP application will use the Javascript Framework D3.js to display the values stored in the DB with graphics. It will allow to navigate to the past days to observe the readings
 REQUIREMENTS
 
 
-# HARDWARE
+### HARDWARE
 
 *Arduino Uno
 Ethernet Shield (eBay clone)
