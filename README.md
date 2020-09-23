@@ -4,7 +4,7 @@
  ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)  ![license](https://img.shields.io/badge/license-APACHE-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/5ran6/patricia.svg?maxAge=2592000)](https://github.com/5ran6/patricia/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/5ran6/patricia.svg?maxAge=2592000)](https://github.com/5ran6/patricia/issues?q=is%3Aissue+is%3Aclosed) [![Chat](https://img.shields.io/badge/chat-on%20whatsapp-7289da.svg)](https://wa.me/2348036339292)
 
 
-![Product Gif](https://images.squarespace-cdn.com/content/v1/59b037304c0dbfb092fbe894/1585520436123-MWPLA6SVPPW9PJGYUYLL/ke17ZwdGBToddI8pDm48kM8ovl2IWJKCHB5zy2s-rqZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTm3Qo48J5H1zFfLA8ErqpsRm2Z5pNfU6V0Zw_Wt0I4bsz0mfBzWOFLv680Lk3cXuzo/main_RGB_LED_animation.gif?format=1000w)
+![Circuit Design](https://www.makerguides.com/wp-content/uploads/2019/08/DHT11-with-Arduino-UNO-wiring-diagram-schematic.jpg)
 
 Arduino client - PHP Server project is a simple communication system designed with Arduino and PHP. PHP acts the server, while arduino acts as the client who communicates to the server. The client makes a post request to the server using an API and the server responds back. 
 
