@@ -24,7 +24,9 @@ This project is divided in 2 main parts:
 - PHP/MySQL Application: handles the POST requests that are sent to the server and serves the pages to clients who connect 
 ### PART 2
 - Data Visualization: The PHP application will use the Javascript Framework D3.js to display the values stored in the DB with graphics. It will allow to navigate to the past days to observe the readings
-REQUIREMENTS
+
+
+## REQUIREMENTS
 
 
 ### HARDWARE
