@@ -29,7 +29,7 @@ REQUIREMENTS
 
 ### HARDWARE
 
-*Arduino Uno
+Arduino Uno
 Ethernet Shield (eBay clone)
 DHT 11 sensor
 breadboard
