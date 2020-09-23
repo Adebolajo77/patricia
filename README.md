@@ -30,15 +30,25 @@ REQUIREMENTS
 ### HARDWARE
 
 Arduino Uno
+
 Ethernet Shield (eBay clone)
+
 DHT 11 sensor
+
 breadboard
+
 10k Ohm resistor
+
 USB cable
+
 Ethernet cable
-wires
-piece of acrylic
+
+Jumper wires
+
+Piece of acrylic
+
 PCB spacers
+
 Software
 
 - To use this project, you need access to a web server ( can be from a free hosting company ) with capability to run PHP applications and also to create databases. ( possibly cPanel with phpMyAdmin)
