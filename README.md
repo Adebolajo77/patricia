@@ -77,7 +77,7 @@ Software
 
 
 ## Documentation
-The documentation for this project is hosted on [website](https://demos.creative-tim.com/material-dashboard/docs/2.1/getting-started/introduction.html).
+The documentation for this project is hosted on [website](https://docs.google.com/document/d/103eUxL32lZrsbmdlP5TmienL40dRTqspvDHs4G36-_U/edit?usp=sharing).
 
 
 ## File Structure
